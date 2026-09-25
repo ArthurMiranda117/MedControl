@@ -3,8 +3,6 @@ from datetime import date, timedelta
 from typing import List, Dict, Tuple
 
 class ItemEstoque(ABC):
-    """Classe Abstrata que estabelece o contrato genérico do estoque."""
-
     @abstractmethod
     def quantidade_total(self) -> int:
         pass
@@ -120,7 +118,7 @@ class GestorEstoque:
 
 if __name__ == "__main__":
     print("==================================================")
-    print("      MEDCONTROL - SISTEMA DE GESTÃO DE ESTOQUE    ")
+    print("     MEDCONTROL - SISTEMA DE GESTÃO DE ESTOQUE    ")
     print("==================================================\n")
 
     gestor = GestorEstoque()
