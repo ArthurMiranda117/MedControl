@@ -1,8 +1,5 @@
 # MedControl – Sistema de Gestão de Validade e Estoque Medicamentoso
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
-
 O **MedControl** é um sistema em Python desenvolvido para resolver o problema real do desperdício de medicamentos e insumos médicos em farmácias, postos de saúde e hospitais. A aplicação automatiza a regra **FEFO** (*First Expired, First Out* — Primeiro que Vence, Primeiro que Sai) e emite alertas preventivos de vencimento.
 
 ---
