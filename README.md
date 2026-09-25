@@ -31,7 +31,7 @@ O descarte de medicamentos por perda de validade gera grandes prejuízos finance
 
 ---
 
-## 🧬 Conceitos de POO Aplicados
+## Conceitos de POO Aplicados
 
 - **Abstração (`ItemEstoque`):** Uso de classe abstrata com o módulo `abc` para definir o contrato obrigatório (`quantidade_total` e `dar_baixa`) de qualquer item armazenado.
 - **Encapsulamento (`Lote` e `Produto`):** Atributos protegidos/privados (`_codigo`, `_nome`, `_quantidade`) expostos apenas via `@property`. Uso de `@property.setter` para validar regras de negócio e evitar estado inconsistente.
